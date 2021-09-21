@@ -126,7 +126,7 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     color: #252525;
     font-family: 'Roboto';
     font-size: 30px;
@@ -135,7 +135,11 @@ h2.title {
     text-align: center;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #EFEFEF;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
     width: 217px;
     height: 4px;
     background-color: #F9BF3B;
@@ -202,7 +206,7 @@ h2.title {
     color: #4A4A4A;
 }
 
-.optimization .optimization_text span{
+.optimization .optimization_text span {
     font-family: "Roboto - Bold";
     font-weight: 700;
 }
@@ -212,4 +216,40 @@ h2.title {
     top: -54px;
     left: -240px;
     z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../image/bg/footer_bg.png') center center/cover no-repeat;
+}
+
+.finish .finish_warpper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_warpper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_warpper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_warpper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 17px;
+    color: #EFEFEF;
 }
