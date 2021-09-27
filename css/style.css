@@ -45,6 +45,7 @@
 }
 
 .simple .title_big {
+    position: relative;
     font-family: Roboto;
     font-weight: 400;
     font-size: 80px;
@@ -52,6 +53,26 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 21px;
+}
+
+.simple .title_big::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 292px;
+    right: 0;
+    border: 1px solid #FFFFFF;
+}
+
+.simple .title_big::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 292px;
+    border: 1px solid #FFFFFF;
 }
 
 h1 {
