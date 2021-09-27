@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .promo {
     height: 800px;
     background: url('../image/bg/main_bg.png') center center/cover no-repeat;
@@ -23,7 +27,6 @@
 
 .logo .logo_text {
     color: #FFFFFF;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -35,9 +38,8 @@
 
 .title {
     color: #F9BF3B;
-    font-family: Roboto;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 41px;
     line-height: 24px;
     text-align: center;
@@ -46,8 +48,7 @@
 
 .simple .title_big {
     position: relative;
-    font-family: Roboto;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 80px;
     text-align: center;
     text-transform: uppercase;
@@ -87,7 +88,6 @@ h2.title {
     padding: 0 13px;
     margin-top: 23px;
     color: #FFFFFF;
-    font-family: Roboto;
     font-weight: 300;
     font-size: 21px;
     line-height: 28px;
@@ -108,9 +108,8 @@ h2.title {
     height: 72px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    font-family: "Roboto Condensed";
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 21px;
     line-height: 24px;
     align-items: center;
@@ -131,8 +130,7 @@ h2.title {
 }
 
 .more .more_text {
-    font-family: "Roboto - Thin";
-    font-weight: 400;
+    font-weight: 200;
     font-size: 15px;
     text-align: center;
     text-transform: uppercase;
@@ -153,7 +151,6 @@ h2.title {
 
 .waiting .waiting_header, .finish .finish_header {
     color: #252525;
-    font-family: 'Roboto';
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
@@ -175,7 +172,6 @@ h2.title {
 .waiting .waiting_subheader {
     margin-top: 17px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
     text-align: center;
@@ -199,7 +195,6 @@ h2.title {
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -212,9 +207,8 @@ h2.title {
 
 .optimization .optimization_header {
     margin-left: 391px;
-    font-family: Roboto;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 30px;
     align-items: center;
     text-transform: uppercase;
@@ -224,7 +218,6 @@ h2.title {
 .optimization .optimization_text {
     margin-top: 25px;
     margin-left: 391px;
-    font-family: Roboto;
     font-weight: 300;
     line-height: 27px;
     font-size: 17px;
@@ -232,7 +225,6 @@ h2.title {
 }
 
 .optimization .optimization_text span {
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -273,7 +265,6 @@ h2.title {
 .finish .finish_warpper .finish_item .finish_descr {
     margin-top: 25px;
     text-align: center;
-    font-family: Roboto;
     font-weight: 300;
     font-size: 17px;
     color: #EFEFEF;
@@ -292,9 +283,8 @@ h2.title {
 
 .gift .gift_text {
     margin-top: 45px;
-    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 30px;
     line-height: 43px;
     text-align: center;
@@ -313,9 +303,8 @@ h2.title {
 
 .timetable .timetable_header {
     margin-top: 36px;
-    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 30px;
     line-height: 30px;
     text-align: center;
@@ -325,7 +314,6 @@ h2.title {
 
 .timetable .timetable_subheader {
     margin-top: 30px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -337,9 +325,8 @@ h2.title {
 
 .timetable .timetable_text {
     margin-top: 24.5px;
-    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 23px;
     line-height: 20px;
     text-align: center;
@@ -353,7 +340,6 @@ h2.title {
 }
 
 .footer .footer_support {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
